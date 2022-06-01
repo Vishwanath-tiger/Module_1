@@ -1,0 +1,537 @@
+Script started on 2022-05-31 16:21:57+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;vishwanath@TIGER02711: ~[01;32mvishwanath@TIGER02711[00m:[01;34m~[00m$ pwd
+/home/vishwanath
+]0;vishwanath@TIGER02711: ~[01;32mvishwanath@TIGER02711[00m:[01;34m~[00m$ ls
+unix_session
+]0;vishwanath@TIGER02711: ~[01;32mvishwanath@TIGER02711[00m:[01;34m~[00m$ ls -F
+unix_session
+]0;vishwanath@TIGER02711: ~[01;32mvishwanath@TIGER02711[00m:[01;34m~[00m$ man ls
+[?1049h[22;0;0t[?1h=LS(1)                                               User Commands                                               LS(1)[m
+[m
+[1mNAME[0m[m
+       ls - list directory contents[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mls[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       List  information  about the FILEs (the current directory by default).  Sort entries alphabetically if none of[m
+       [1m-cftuvSUX[0m nor [1m--sort[0m is specified.[m
+[m
+       Mandatory arguments to long options are mandatory for short options too.[m
+[m
+       [1m-a[0m, [1m--all[0m[m
+              do not ignore entries starting with .[m
+[m
+       [1m-A[0m, [1m--almost-all[0m[m
+              do not list implied . and ..[m
+[m
+       [1m--author[0m[m
+              with [1m-l[0m, print the author of each file[m
+[m
+       [1m-b[0m, [1m--escape[0m[m
+              print C-style escapes for nongraphic characters[m
+[m
+       [1m--block-size[0m=[4mSIZE[24m[m
+              with [1m-l[0m, scale sizes by SIZE when printing them; e.g., '--block-size=M'; see SIZE format below[m
+[m
+[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]0;vishwanath@TIGER02711: ~[01;32mvishwanath@TIGER02711[00m:[01;34m~[00m$ cd /mnt
+]0;vishwanath@TIGER02711: /mnt[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt[00m$ cd d
+]0;vishwanath@TIGER02711: /mnt/d[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d[00m$ cd u[KUbuntu
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu[00m$ ls -F
+[0m[34;42mshell-lesson-data[0m/
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu[00m$ cd shell-lesson-data
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data[00m$ ls
+[0m[34;42mexercise-data[0m  [34;42mnorth-pacific-gyre[0m
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data[00m$ pwd
+/mnt/d/Ubuntu/shell-lesson-data
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data[00m$ cd ..
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu[00m$ pwd
+/mnt/d/Ubuntu
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu[00m$ ls -F0[K-a[K[K -s[Ka
+[0m[34;42m.[0m/  [34;42m..[0m/  [34;42mshell-lesson-data[0m/
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu[00m$ cd 
+]0;vishwanath@TIGER02711: ~[01;32mvishwanath@TIGER02711[00m:[01;34m~[00m$ pwd
+/home/vishwanath
+]0;vishwanath@TIGER02711: ~[01;32mvishwanath@TIGER02711[00m:[01;34m~[00m$ cd /mnt
+]0;vishwanath@TIGER02711: /mnt[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt[00m$ cd d
+]0;vishwanath@TIGER02711: /mnt/d[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d[00m$ cd Ubuntu
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu[00m$ cd shell-lesson-data/
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data[00m$ cd exercise-data/
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data[00m$ pwd
+/mnt/d/Ubuntu/shell-lesson-data/exercise-data
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data[00m$ cd creatures/
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/creatures[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/creatures[00m$ ls -r
+[0m[01;32municorn.dat[0m  [01;32mminotaur.dat[0m  [01;32mbasilisk.dat[0m
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/creatures[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/creatures[00m$ ls
+[0m[01;32mbasilisk.dat[0m  [01;32mminotaur.dat[0m  [01;32municorn.dat[0m
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/creatures[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/creatures[00m$ cd ..
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data[00m$ cd ..
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data[00m$ ls -S
+[0m[34;42mexercise-data[0m  [34;42mnorth-pacific-gyre[0m
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data[00m$ ls -s exercise-data/
+total 0
+0 [0m[34;42manimal-counts[0m  0 [34;42mcreatures[0m  0 [01;32mnumbers.txt[0m  0 [34;42mproject[0m  0 [34;42mproteins[0m  0 [34;42mwriting[0m
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data[00m$ cd exercise-data/
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data[00m$ cd ..
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data[00m$ pwd
+/mnt/d/Ubuntu/shell-lesson-data
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data[00m$ cd exercise-data/writing/
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[00m$ ls -F
+[0m[01;32mLittleWomen.txt[0m*  [01;32mhaiku.txt[0m*  [34;42mthesis[0m/
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[00m$ mkdir thesis
+mkdir: cannot create directory ‘thesis’: File exists
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[00m$ rm thesis
+rm: cannot remove 'thesis': Is a directory
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[00m$ mkdir thesis
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[00m$ ls -f[KF
+[0m[01;32mLittleWomen.txt[0m*  [01;32mhaiku.txt[0m*  [34;42mthesis[0m/
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[00m$ ls -F thesis/
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[00m$ cd thesis/
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing/thesis[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing/thesis[00m$ nano draft.txt
+[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                           draft.txt                                                      [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[2d[39;49m(B[m[?12l[?25h[?25l[1;111H(B[0;7mModified(B[m[2dV[?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25lh[?12l[?25h[?25lw[?12l[?25h[?25ln[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25lh[?12l[?25h[?25l [?12l[?25h[?25l-[?12l[?25h[?25l"[?12l[?25h[?25lT[?12l[?25h[?25li[?12l[?25h[?25lg[28d[K[2;17H[?12l[?25h[?25le[?12l[?25h[?25lr[?12l[?25h[?25l [?12l[?25h[?25lA[?12l[?25h[?25ln[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25ll[?12l[?25h[?25ly[?12l[?25h[?25lt[?12l[?25h[?25lk[?12l[?25h[?25lc[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25lc[?12l[?25h[?25ls[?12l[?25h[?25l"[?12l[?25h[?25l[29;16H[15X[29;31H(B[0;7mM-D(B[m DOS Format[16X[29;61H(B[0;7mM-A(B[m Append[15X[29;93H(B[0;7mB(B[m Backup File[K[30;2H(B[0;7mC(B[m Cancel[16G[15X[30;31H(B[0;7mM-M(B[m Mac Format[16X[30;61H(B[0;7mM-P(B[m Prepend[19X[30;91H(B[0;7m^T(B[m To Files[K[28d(B[0;7mFile Name to Write: draft.txt                                                                                           [28;1H(B[m[28;30H[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;111H(B[0;7m        (B[m[28;53H(B[0;7m[ Wrote 1 line ](B[m[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Mark Text[30;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo       (B[0;7mM-6(B[m Copy Text[28d[2;30H[?12l[?25h[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing/thesis[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing/thesis[00m$ ls
+[0m[01;32mdraft.txt[0m
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing/thesis[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing/thesis[00m$ touch my_file.txt
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing/thesis[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing/thesis[00m$ ls
+[0m[01;32mdraft.txt[0m  [01;32mmy_file.txt[0m
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing/thesis[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing/thesis[00m$ cd ..
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[00m$ mv thesis/draft.txt  [Kthesis/qu`[Kotes.txt
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[00m$ ls thesis/
+[0m[01;32mmy_file.txt[0m  [01;32mquotes.txt[0m
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[00m$ mv thesis/quotes.txt 
+mv: missing destination file operand after 'thesis/quotes.txt'
+Try 'mv --help' for more information.
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[00m$ ls thesis/
+[0m[01;32mmy_file.txt[0m  [01;32mquotes.txt[0m
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[00m$ ls quotes[K[K[K[K[K[K[K[K[Kcp q[K[K[K[Kcd ww[K[Kthesis/
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing/thesis[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing/thesis[00m$ cp quotes.txt thesis[K[K[K[K[K[Kthesis/quotatino[K[Kosn[K[Kns.txt
+cp: cannot create regular file 'thesis/quotations.txt': No such file or directory
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing/thesis[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing/thesis[00m$ cp -r thess=is[K[K[K[Kis thesis_backup
+cp: cannot stat 'thesis': No such file or directory
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing/thesis[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing/thesis[00m$ rm quotes.txt 
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing/thesis[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing/thesis[00m$ rm thesis
+rm: cannot remove 'thesis': No such file or directory
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing/thesis[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing/thesis[00m$ cd ..
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[00m$ cd ..
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data[00m$ cd creatures/
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/creatures[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/creatures[00m$ ls
+[0m[01;32mbasilisk.dat[0m  [01;32mminotaur.dat[0m  [01;32municorn.dat[0m
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/creatures[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/creatures[00m$ ls _F[K[K-F
+[0m[01;32mbasilisk.dat[0m*  [01;32mminotaur.dat[0m*  [01;32municorn.dat[0m*
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/creatures[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/creatures[00m$ ls analu[Kysed[K[K[K[K[K[K[K[K[K[K[Kcd ..
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data[00m$ cd protiens
+bash: cd: protiens: No such file or directory
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data[00m$ cd proteinfs[K[Ks
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ ls
+[0m[01;32mcubane.pdb[0m  [01;32mlengths.txt[0m  [01;32moctane.pdb[0m   [01;32mpropane.pdb[0m         [01;32mtestfile01.txt[0m
+[01;32methane.pdb[0m  [01;32mmethane.pdb[0m  [01;32mpentane.pdb[0m  [01;32msorted-lengths.txt[0m  [01;32mtestfile02.txt[0m
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ wc cubane.pdb 
+  20  156 1158 cubane.pdb
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ wc *.pdb
+  20  156 1158 cubane.pdb
+  12   84  622 ethane.pdb
+   9   57  422 methane.pdb
+  30  246 1828 octane.pdb
+  21  165 1226 pentane.pdb
+  15  111  825 propane.pdb
+ 107  819 6081 total
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ wc *[K[K -l*.pdb
+wc: invalid option -- '*'
+Try 'wc --help' for more information.
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ wc -l*.pdb[K[K[K[K[K * [K.pdb
+  20 cubane.pdb
+  12 ethane.pdb
+   9 methane.pdb
+  30 octane.pdb
+  21 pentane.pdb
+  15 propane.pdb
+ 107 total
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ wc -l *.pdb >lengths.txt 
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ ls lengths.txt 
+[0m[01;32mlengths.txt[0m
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ caat [K[K[Ka[Kt lengths.txt 
+  20 cubane.pdb
+  12 ethane.pdb
+   9 methane.pdb
+  30 octane.pdb
+  21 pentane.pdb
+  15 propane.pdb
+ 107 total
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ sort -n lengths.txt 
+   9 methane.pdb
+  12 ethane.pdb
+  15 propane.pdb
+  20 cubane.pdb
+  21 pentane.pdb
+  30 octane.pdb
+ 107 total
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ sort -n lengths.txt  >sorted-lengths.txt 
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ head -n 1 sorted-lengths.txt 
+   9 methane.pdb
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ sort[K[K[K[Khead -n 1 sorted-lengths.txt [12@sort -n lengths.txt  >[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Klengths.txt 
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ echo The echo command prints tesx[K[Kxt
+The echo command prints text
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ echo hello > testfile01.txt
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ echo hello >> testfile02.txt
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ wc -l *.pdb | sort -n
+   9 methane.pdb
+  12 ethane.pdb
+  15 propane.pdb
+  20 cubane.pdb
+  21 pentane.pdb
+  30 octane.pdb
+ 107 total
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ wc -l *.pdb | sort -n |head[K[K[K[K[K| head -n 1
+   9 methane.pdb
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ cd ..
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data[00m$ cd crf[Keatures/
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/creatures[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/creatures[00m$ ls
+[0m[01;32mbasilisk.dat[0m  [01;32mminotaur.dat[0m  [01;32municorn.dat[0m
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/creatures[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/creatures[00m$ head -n 5 basilisk.dat minotaur.dat unicorn.dat 
+==> basilisk.dat <==
+COMMON NAME: basilisk
+CLASSIFICATION: basiliscus vulgaris
+UPDATED: 1745-05-02
+CCCCAACGAG
+GAAACAGATC
+
+==> minotaur.dat <==
+COMMON NAME: minotaur
+CLASSIFICATION: bos hominus
+UPDATED: 1765-02-17
+CCCGAAGGAC
+CGACATCTCT
+
+==> unicorn.dat <==
+COMMON NAME: unicorn
+CLASSIFICATION: equus monoceros
+UPDATED: 1738-11-24
+AGCCGGGTCG
+CTTTACCTTA
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/creatures[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/creatures[00m$ for thing in list_of [K_things
+> do  [K[K [K[K[Kdo
+> cd ..
+> opeartion[K[K[K[K[K[K[K[K[K^C
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/creatures[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/creatures[00m$ for filenm[Kame in basilisk.dat minotaur.dat unicorn.dat 
+> do
+> ^C^C^C^C
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/creatures[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/creatures[00m$ for filename in basilisk.dat minotaur.dat unicorn.dat ; do[K[K[K[K[K
+> do
+>    e[Khead  [K-n 2 $filename | tail -n1
+> done
+CLASSIFICATION: basiliscus vulgaris
+CLASSIFICATION: bos hominus
+CLASSIFICATION: equus monoceros
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/creatures[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/creatures[00m$ cd ..
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data[00m$ cd ..
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data[00m$ cd north-pacific-gyre/'[K
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/north-pacific-gyre[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/north-pacific-gyre[00m$ for datafile in NENE0[K*A.txt NENE0[K*B.txt
+> do
+>     echo $datafile
+> done
+NENE01729A.txt
+NENE01736A.txt
+NENE01751A.txt
+NENE01812A.txt
+NENE01843A.txt
+NENE01978A.txt
+NENE02040A.txt
+NENE02043A.txt
+NENE01729B.txt
+NENE01751B.txt
+NENE01843B.txt
+NENE01978B.txt
+NENE02018B.txt
+NENE02040B.txt
+NENE02043B.txt
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/north-pacific-gyre[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/north-pacific-gyre[00m$ for datafile in NENE0[K*a[KA.txt Ne[KENE0[K*B.txt
+> do
+> echo $datafile stats-$datafile
+> done
+NENE01729A.txt stats-NENE01729A.txt
+NENE01736A.txt stats-NENE01736A.txt
+NENE01751A.txt stats-NENE01751A.txt
+NENE01812A.txt stats-NENE01812A.txt
+NENE01843A.txt stats-NENE01843A.txt
+NENE01978A.txt stats-NENE01978A.txt
+NENE02040A.txt stats-NENE02040A.txt
+NENE02043A.txt stats-NENE02043A.txt
+NENE01729B.txt stats-NENE01729B.txt
+NENE01751B.txt stats-NENE01751B.txt
+NENE01843B.txt stats-NENE01843B.txt
+NENE01978B.txt stats-NENE01978B.txt
+NENE02018B.txt stats-NENE02018B.txt
+NENE02040B.txt stats-NENE02040B.txt
+NENE02043B.txt stats-NENE02043B.txt
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/north-pacific-gyre[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/north-pacific-gyre[00m$ for datafile in Ne[KENE0[K*A.txt NENE0[K*B.r[Ktxr[Kt;[K [K; do echo $datafile stats-$datafile; [Kdone
+echoNENE01729A.txt: command not found
+echoNENE01736A.txt: command not found
+echoNENE01751A.txt: command not found
+echoNENE01812A.txt: command not found
+echoNENE01843A.txt: command not found
+echoNENE01978A.txt: command not found
+echoNENE02040A.txt: command not found
+echoNENE02043A.txt: command not found
+echoNENE01729B.txt: command not found
+echoNENE01751B.txt: command not found
+echoNENE01843B.txt: command not found
+echoNENE01978B.txt: command not found
+echoNENE02018B.txt: command not found
+echoNENE02040B.txt: command not found
+echoNENE02043B.txt: command not found
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/north-pacific-gyre[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/north-pacific-gyre[00m$ cd ..
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data[00m$ cd exercise-data/
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data[00m$ cd proteins
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ for species in v[Kcubane.pdb [K[K[K[K[K ethane methna[K[Kane
+> do
+>    for temperature in 25 30 37 40 
+>    do 
+>      mkdr[Kir $species-$temperature
+>    done
+> done
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ ls
+[0m[34;42mcubane-25[0m  [34;42mcubane-40[0m   [34;42methane-30[0m  [01;32methane.pdb[0m   [34;42mmethane-30[0m  [01;32mmethane.pdb[0m  [01;32mpropane.pdb[0m         [01;32mtestfile02.txt[0m
+[34;42mcubane-30[0m  [01;32mcubane.pdb[0m  [34;42methane-37[0m  [01;32mlengths.txt[0m  [34;42mmethane-37[0m  [01;32moctane.pdb[0m   [01;32msorted-lengths.txt[0m
+[34;42mcubane-37[0m  [34;42methane-25[0m   [34;42methane-40[0m  [34;42mmethane-25[0m   [34;42mmethane-40[0m  [01;32mpentane.pdb[0m  [01;32mtestfile01.txt[0m
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ nano middle.sh
+[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                           middle.sh                                                      [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[2d[39;49m(B[m[?12l[?25h[?25l[1;111H(B[0;7mModified(B[m[2dh[?12l[?25h[?25le[?12l[?25h[?25lD[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25le[?12l[?25h[?25la[?12l[?25h[?25l(B[0;1m[34mhead[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [?12l[?25h[?25l -[?12l[?25h[?25l(B[0;1m[35m -n[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l 1[?12l[?25h[?25l5[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l o[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25le[?12l[?25h[?25l.[?12l[?25h[?25lp[?12l[?25h[?25ld[28d[K[2;21H[?12l[?25h[?25lb[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m|[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l t[?12l[?25h[?25la[?12l[?25h[?25li[?12l[?25h[?25l(B[0;1m[34mtail[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l(B[0;1m[35m -n[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l 5[?12l[?25h[?25l[29;16H[15X[29;31H(B[0;7mM-D(B[m DOS Format[16X[29;61H(B[0;7mM-A(B[m Append[15X[29;93H(B[0;7mB(B[m Backup File[K[30;2H(B[0;7mC(B[m Cancel[16G[15X[30;31H(B[0;7mM-M(B[m Mac Format[16X[30;61H(B[0;7mM-P(B[m Prepend[19X[30;91H(B[0;7m^T(B[m To Files[K[28d(B[0;7mFile Name to Write: middle.sh                                                                                           [28;1H(B[m[28;30H[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;111H(B[0;7m        (B[m[28;53H(B[0;7m[ Wrote 1 line ](B[m[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Mark Text[30;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo       (B[0;7mM-6(B[m Copy Text[28d[2;34H[?12l[?25h[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ bas [Kh m
+methane-25/  methane-30/  methane-37/  methane-40/  methane.pdb  middle.sh    
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ bash middle.sh
+ATOM      9  H           1      -4.502   0.681   0.785  1.00  0.00
+ATOM     10  H           1      -5.254  -0.243  -0.537  1.00  0.00
+ATOM     11  H           1      -4.357   1.252  -0.895  1.00  0.00
+ATOM     12  H           1      -3.009  -0.741  -1.467  1.00  0.00
+ATOM     13  H           1      -3.172  -1.337   0.206  1.00  0.00
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ nano middle.sh
+[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;54H(B[0;7m[ Reading... ](B[m[28;53H(B[0;7m[ Read 1 line ](B[m[H(B[0;7m  GNU nano 4.8                                           middle.sh                                                      [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[2d(B[0;1m[34mhead[35m -n[39m(B[m 15 octane.pdb [32m|[39m(B[m (B[0;1m[34mtail[35m -n[39m(B[m 5[?12l[?25h[?25l[1;111H(B[0;7mModified(B[m7[2;27r8[2dM[1;30r[3;1H[?12l[?25h[?25l[A[?12l[?25h[?25l[3d[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l [?12l[?25h[?25l1[?12l[?25h[?25l5[?12l[?25h[?25l [?12l[?25h[?25lo[?12l[?25h[?25lc[?12l[?25h[?25lt[?12l[?25h[?25la[?12l[?25h[?25ln[?12l[?25h[?25le[?12l[?25h[?25l.[?12l[?25h[?25lp[?12l[?25h[?25ld[?12l[?25h[?25lb[?12l[?25h[?25l [?12l[?25h[?25l[28d[K[3;24H[?12l[?25h[?25l [?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l[C[?12l[?25h[?25l [?12l[?25h[?25l5[?12l[?25h[?25l[4d[?12l[?25h[?25lh[?12l[?25h[?25le[?12l[?25h[?25la[?12l[?25h[?25l(B[0;1m[34mhead[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l(B[0;1m[35m -n[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m$[39m(B[m[?12l[?25h[?25l(B[0;1m[31m$2[39m(B[m[?12l[?25h[?25l(B[0;1m[33m"$2"[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m$[39m(B[m[?12l[?25h[?25l(B[0;1m[31m$1[39m(B[m[?12l[?25h[?25l(B[0;1m[33m"$1"[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m|[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l t[?12l[?25h[?25la[?12l[?25h[?25li[?12l[?25h[?25l(B[0;1m[34mtail[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l(B[0;1m[35m -n[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m$[39m(B[m[?12l[?25h[?25l(B[0;1m[31m$2[39m(B[m[?12l[?25h[?25l[32m$[39m(B[m[K[?12l[?25h[?25l(B[0;1m[31m$2[39m(B[m[?12l[?25h[?25l[32m$[39m(B[m[K[?12l[?25h[?25l(B[0;1m[31m$3[39m(B[m[?12l[?25h[?25l(B[0;1m[33m"$3"[39m(B[m[?12l[?25h[?25l[29;16H[15X[29;31H(B[0;7mM-D(B[m DOS Format[16X[29;61H(B[0;7mM-A(B[m Append[15X[29;93H(B[0;7mB(B[m Backup File[K[30;2H(B[0;7mC(B[m Cancel[16G[15X[30;31H(B[0;7mM-M(B[m Mac Format[16X[30;61H(B[0;7mM-P(B[m Prepend[19X[30;91H(B[0;7m^T(B[m To Files[K[28d(B[0;7mFile Name to Write: middle.sh                                                                                           [28;1H(B[m[28;30H[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;111H(B[0;7m        (B[m[28;52H(B[0;7m[ Wrote 3 lines ](B[m[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Mark Text[30;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo       (B[0;7mM-6(B[m Copy Text[28d[4;33H[?12l[?25h[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ bash middle.sh pentane [K.pdb 13[K5 5
+ATOM      9  H           1      -4.502   0.681   0.785  1.00  0.00
+ATOM     10  H           1      -5.254  -0.243  -0.537  1.00  0.00
+ATOM     11  H           1      -4.357   1.252  -0.895  1.00  0.00
+ATOM     12  H           1      -3.009  -0.741  -1.467  1.00  0.00
+ATOM     13  H           1      -3.172  -1.337   0.206  1.00  0.00
+ATOM      9  H           1       1.324   0.350  -1.332  1.00  0.00
+ATOM     10  H           1       1.271   1.378   0.122  1.00  0.00
+ATOM     11  H           1      -0.074  -0.384   1.288  1.00  0.00
+ATOM     12  H           1      -0.048  -1.362  -0.205  1.00  0.00
+ATOM     13  H           1      -1.183   0.500  -1.412  1.00  0.00
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ no[Kano sorted.sh
+[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                           sorted.sh                                                      [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[2d[39;49m(B[m[?12l[?25h[?25l[1;111H(B[0;7mModified(B[m[2dw[?12l[?25h[?25lc[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l(B[0;1m[35m -l[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m$[39m(B[m[?12l[?25h[?25l(B[0;1m[31m$@[39m(B[m[?12l[?25h[?25l(B[0;1m[33m"$@"[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m|[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l s[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25l(B[0;1m[34msort[39m(B[m[?12l[?25h[?25l-[?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l -[?12l[?25h[?25l(B[0;1m[35m -n[39m(B[m[?12l[?25h[?25l[29;16H[15X[29;31H(B[0;7mM-D(B[m DOS Format[16X[29;61H(B[0;7mM-A(B[m Append[15X[29;93H(B[0;7mB(B[m Backup File[K[30;2H(B[0;7mC(B[m Cancel[16G[15X[30;31H(B[0;7mM-M(B[m Mac Format[16X[30;61H(B[0;7mM-P(B[m Prepend[19X[30;91H(B[0;7m^T(B[m To Files[K[28d(B[0;7mFile Name to Write: sorted.sh                                                                                           [28;1H(B[m[28;30H[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;111H(B[0;7m        (B[m[28;53H(B[0;7m[ Wrote 1 line ](B[m[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Mark Text[30;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo       (B[0;7mM-6(B[m Copy Text[28d[2;21H[?12l[?25h[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ bash sorted.sh *pdb [K ../creatures/*.dat
+    9 methane.pdb
+   12 ethane.pdb
+   15 propane.pdb
+   20 cubane.pdb
+   21 pentane.pdb
+   30 octane.pdb
+  163 ../creatures/basilisk.dat
+  163 ../creatures/minotaur.dat
+  163 ../creatures/unicorn.dat
+  596 total
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ cd ..
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data[00m$ cd ../../no[K[K[K[K[K[K[K[K[K[K[Kcd ..
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data[00m$ cd ../../nor[K[K[K[K[K[K[K[K[K[K north-pacific-gyre/
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/north-pacific-gyre[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/north-pacific-gyre[00m$ cd ../..c[K/north-pacific-gyre/
+bash: cd: ../../north-pacific-gyre/: No such file or directory
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/north-pacific-gyre[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/north-pacific-gyre[00m$ namo [K[K[Kno do-stats.sh
+[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;55H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                                          do-stats.sh                                                     [1;119H(B[m[29d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Mark Text[30d(B[0;7m^X(B[m Exit[30;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy Text[28d[2d[39;49m(B[m[?12l[?25h[?25l[1;111H(B[0;7mModified(B[m[2df[?12l[?25h[?25lo[?12l[?25h[?25l[32mfor[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l d[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25la[?12l[?25h[?25lf[?12l[?25h[?25li[?12l[?25h[?25ll[?12l[?25h[?25ld[?12l[?25h[?25l [?12l[?25h[?25le[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l  i[?12l[?25h[?25l[32min[39m(B[m[?12l[?25h[?25li[K[?12l[?25h[?25l[42m  [49m(B[m[K[?12l[?25h[?25l [?12l[?25h[?25l i[?12l[?25h[?25l[32min[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l "[?12l[?25h[?25l[32m$[28d[39m(B[m[K[2;19H[?12l[?25h[?25l(B[0;1m[31m$a[39m(B[m[?12l[?25h[?25l(B[0;1m[33m"$a"[39m(B[m[?12l[?25h[?25l[3d[?12l[?25h[?25ld[?12l[?25h[?25l[32mdo[39m(B[m[?12l[?25h[?25l[4d[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l   e[?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25l(B[0;1m[34mecho[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m$[39m(B[m[?12l[?25h[?25l(B[0;1m[31m$d[39m(B[m[?12l[?25h[?25l(B[0;1m[31ma[39m(B[m[?12l[?25h[?25l(B[0;1m[31mt[39m(B[m[?12l[?25h[?25l(B[0;1m[31ma[39m(B[m[?12l[?25h[?25l(B[0;1m[31mf[39m(B[m[?12l[?25h[?25l(B[0;1m[31mi[39m(B[m[?12l[?25h[?25l(B[0;1m[31ml[39m(B[m[?12l[?25h[?25l(B[0;1m[31me[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[5d[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [?12l[?25h[?25l   b[?12l[?25h[?25la[?12l[?25h[?25ls[?12l[?25h[?25lh[?12l[?25h[?25l.[?12l[?25h[?25lg[?12l[?25h[?25lo[?12l[?25h[?25lo[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25ls[?12l[?25h[?25l.[?12l[?25h[?25ls[?12l[?25h[?25lh[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m$[39m(B[m[?12l[?25h[?25l(B[0;1m[31m$d[39m(B[m[?12l[?25h[?25l(B[0;1m[31ma[39m(B[m[?12l[?25h[?25l(B[0;1m[31mt[39m(B[m[?12l[?25h[?25l(B[0;1m[31ma[39m(B[m[?12l[?25h[?25l(B[0;1m[31mf[39m(B[m[?12l[?25h[?25l(B[0;1m[31mi[39m(B[m[?12l[?25h[?25l(B[0;1m[31ml[39m(B[m[?12l[?25h[?25l(B[0;1m[31me[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[?12l[?25h[?25l [32m$[39m(B[m[?12l[?25h[?25l[42m [49m(B[m[K[?12l[?25h[?25l s[?12l[?25h[?25lt[?12l[?25h[?25la[?12l[?25h[?25lt[?12l[?25h[?25ls[?12l[?25h[?25l-[?12l[?25h[?25l[32m$[39m(B[m[?12l[?25h[?25l(B[0;1m[31m$d[39m(B[m[?12l[?25h[?25l(B[0;1m[31ma[39m(B[m[?12l[?25h[?25l(B[0;1m[31mt[39m(B[m[?12l[?25h[?25l(B[0;1m[31ma[39m(B[m[?12l[?25h[?25l(B[0;1m[31mf[39m(B[m[?12l[?25h[?25l(B[0;1m[31mi[39m(B[m[?12l[?25h[?25l(B[0;1m[31ml[39m(B[m[?12l[?25h[?25l(B[0;1m[31me[39m(B[m[?12l[?25h[?25l[6d[?12l[?25h[?25ld[?12l[?25h[?25l[32mdo[39m(B[m[?12l[?25h[?25ldon[?12l[?25h[?25l[32mdone[39m(B[m[?12l[?25h[?25l[29;16H[15X[29;31H(B[0;7mM-D(B[m DOS Format[16X[29;61H(B[0;7mM-A(B[m Append[15X[29;93H(B[0;7mB(B[m Backup File[K[30;2H(B[0;7mC(B[m Cancel[16G[15X[30;31H(B[0;7mM-M(B[m Mac Format[16X[30;61H(B[0;7mM-P(B[m Prepend[19X[30;91H(B[0;7m^T(B[m To Files[K[28d(B[0;7mFile Name to Write: do-stats.sh                                                                                         [28;1H(B[m[28;32H[?12l[?25h[?25l[28;53H[1K (B[0;7m[ Writing... ](B[m[K[1;111H(B[0;7m        (B[m[28;52H(B[0;7m[ Wrote 5 lines ](B[m[29;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos[93G(B[0;7mU(B[m Undo       (B[0;7mM-A(B[m Mark Text[30;2H(B[0;7mX(B[m Exit  [16G(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7mM-E(B[m Redo       (B[0;7mM-6(B[m Copy Text[28d[6;5H[?12l[?25h[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/north-pacific-gyre[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/north-pacific-gyre[00m$ bash do-stats.sh  [KNENE0[K*A.txt NENE*B.txt
+
+do-stats.sh: line 4: bash.goostats.sh: command not found
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/north-pacific-gyre[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/north-pacific-gyre[00m$ echo *,*[K[K[K[K[K[K[K[Kcd. [K[K ..
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data[00m$ cd exercise-data/
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data[00m$ cd proteins
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ echo *,*
+*,*
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/proteins[00m$ cd ..
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data[00m$ cd writing/
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[00m$ car[Kt haiku.txt 
+The Tao that is seen
+Is not the true Tao, until
+You bring fresh toner.
+
+With searching comes loss
+and the presence of absence:
+"My Thesis" not found.
+
+Yesterday it worked
+Today it is not working
+Software is like that.
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[00m$ grep not haiku.txt 
+Is [01;31m[Knot[m[K the true Tao, until
+"My Thesis" [01;31m[Knot[m[K found.
+Today it is [01;31m[Knot[m[K working
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[00m$ grp[Kel[Kp the haiku.txt 
+Is not [01;31m[Kthe[m[K true Tao, until
+and [01;31m[Kthe[m[K presence of absence:
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[00m$ grwp[K[Kep -w haiku.txt 
+
+^C
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[00m$ grep -w "is not" haiku.txt 
+Today it [01;31m[Kis not[m[K working
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[00m$ grep -n "it" haiku.txt 
+[32m[K5[m[K[36m[K:[m[KW[01;31m[Kit[m[Kh searching comes loss
+[32m[K9[m[K[36m[K:[m[KYesterday [01;31m[Kit[m[K worked
+[32m[K10[m[K[36m[K:[m[KToday [01;31m[Kit[m[K is not working
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[00m$ grep -n -w "the [K" haiku.txt 
+[32m[K2[m[K[36m[K:[m[KIs not [01;31m[Kthe[m[K true Tao, until
+[32m[K6[m[K[36m[K:[m[Kand [01;31m[Kthe[m[K presence of absence:
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[00m$ gep[K[Krep -n -w -i "the [K" haiku.txt 
+[32m[K1[m[K[36m[K:[m[K[01;31m[KThe[m[K Tao that is seen
+[32m[K2[m[K[36m[K:[m[KIs not [01;31m[Kthe[m[K true Tao, until
+[32m[K6[m[K[36m[K:[m[Kand [01;31m[Kthe[m[K presence of absence:
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[00m$ gepr[K[K[Krep -n -w-[K -v "the" haiku.txt 
+[32m[K1[m[K[36m[K:[m[KThe Tao that is seen
+[32m[K3[m[K[36m[K:[m[KYou bring fresh toner.
+[32m[K4[m[K[36m[K:[m[K
+[32m[K5[m[K[36m[K:[m[KWith searching comes loss
+[32m[K7[m[K[36m[K:[m[K"My Thesis" not found.
+[32m[K8[m[K[36m[K:[m[K
+[32m[K9[m[K[36m[K:[m[KYesterday it worked
+[32m[K10[m[K[36m[K:[m[KToday it is not working
+[32m[K11[m[K[36m[K:[m[KSoftware is like that.
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[00m$ gep [K[K[Krep -r Yesterday
+[35m[Khaiku.txt[m[K[36m[K:[m[K[01;31m[KYesterday[m[K it worked
+[35m[KLittleWomen.txt[m[K[36m[K:[m[K"[01;31m[KYesterday[m[K, when Aunt was asleep and I was trying to be as still as a
+[35m[KLittleWomen.txt[m[K[36m[K:[m[K[01;31m[KYesterday[m[K at dinner, when an Austrian officer stared at us and then
+[35m[KLittleWomen.txt[m[K[36m[K:[m[K[01;31m[KYesterday[m[K was a quiet day spent in teaching, sewing, and writing in my
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[00m$ grep -E "^.o" haiku.txt 
+[01;31m[KYo[m[Ku bring fresh toner.
+[01;31m[KTo[m[Kday it is not working
+[01;31m[KSo[m[Kftware is like that.
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[00m$ find.[K .
+.
+./haiku.txt
+./LittleWomen.txt
+./thesis
+./thesis/my_file.txt
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data/writing[00m$ cd ..
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data[00m$ fn[Kind .
+.
+./animal-counts
+./animal-counts/animals.csv
+./animal-counts/final.txt
+./creatures
+./creatures/basilisk.dat
+./creatures/minotaur.dat
+./creatures/unicorn.dat
+./numbers.txt
+./project
+./project/data
+./project/results
+./proteins
+./proteins/cubane-25
+./proteins/cubane-30
+./proteins/cubane-37
+./proteins/cubane-40
+./proteins/cubane.pdb
+./proteins/ethane-25
+./proteins/ethane-30
+./proteins/ethane-37
+./proteins/ethane-40
+./proteins/ethane.pdb
+./proteins/lengths.txt
+./proteins/methane-25
+./proteins/methane-30
+./proteins/methane-37
+./proteins/methane-40
+./proteins/methane.pdb
+./proteins/middle.sh
+./proteins/octane.pdb
+./proteins/pentane.pdb
+./proteins/propane.pdb
+./proteins/sorted-lengths.txt
+./proteins/sorted.sh
+./proteins/testfile01.txt
+./proteins/testfile02.txt
+./writing
+./writing/haiku.txt
+./writing/LittleWomen.txt
+./writing/thesis
+./writing/thesis/my_file.txt
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data[00m$ find .tp[Kype d
+find: ‘.type’: No such file or directory
+find: ‘d’: No such file or directory
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data[00m$ find .-tpe[K[Kype d[1@ 
+.
+./animal-counts
+./creatures
+./project
+./project/data
+./project/results
+./proteins
+./proteins/cubane-25
+./proteins/cubane-30
+./proteins/cubane-37
+./proteins/cubane-40
+./proteins/ethane-25
+./proteins/ethane-30
+./proteins/ethane-37
+./proteins/ethane-40
+./proteins/methane-25
+./proteins/methane-30
+./proteins/methane-37
+./proteins/methane-40
+./writing
+./writing/thesis
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data[00m$ find . -f[Ktype F
+find: Unknown argument to -type: F
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data[00m$ find . -type F[Kf
+./animal-counts/animals.csv
+./animal-counts/final.txt
+./creatures/basilisk.dat
+./creatures/minotaur.dat
+./creatures/unicorn.dat
+./numbers.txt
+./proteins/cubane.pdb
+./proteins/ethane.pdb
+./proteins/lengths.txt
+./proteins/methane.pdb
+./proteins/middle.sh
+./proteins/octane.pdb
+./proteins/pentane.pdb
+./proteins/propane.pdb
+./proteins/sorted-lengths.txt
+./proteins/sorted.sh
+./proteins/testfile01.txt
+./proteins/testfile02.txt
+./writing/haiku.txt
+./writing/LittleWomen.txt
+./writing/thesis/my_file.txt
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data[00m$ find . -name*[K *.txt
+./numbers.txt
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data[00m$ find . -nma[K[Kame "*.txt"
+./animal-counts/final.txt
+./numbers.txt
+./proteins/lengths.txt
+./proteins/sorted-lengths.txt
+./proteins/testfile01.txt
+./proteins/testfile02.txt
+./writing/haiku.txt
+./writing/LittleWomen.txt
+./writing/thesis/my_file.txt
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data[00m$ wc -l $find[K[K[K[K(find . -name "*.txt)
+> ^C
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data[00m$ wc -l $(find . -name "*.txt)[K")
+      3 ./animal-counts/final.txt
+      5 ./numbers.txt
+      0 ./proteins/lengths.txt
+      7 ./proteins/sorted-lengths.txt
+      1 ./proteins/testfile01.txt
+      2 ./proteins/testfile02.txt
+     11 ./writing/haiku.txt
+  21022 ./writing/LittleWomen.txt
+      0 ./writing/thesis/my_file.txt
+  21051 total
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data[00m$ grep "searching" $(find . -name "*.txt")
+[35m[K./writing/haiku.txt[m[K[36m[K:[m[KWith [01;31m[Ksearching[m[K comes loss
+[35m[K./writing/LittleWomen.txt[m[K[36m[K:[m[Ksitting on the top step, affected to be [01;31m[Ksearching[m[K for her book, but was
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data[00m$ wc -l $(find . -name "*dat") | sort -n
+ 163 ./creatures/basilisk.dat
+ 163 ./creatures/minotaur.dat
+ 163 ./creatures/unicorn.dat
+ 489 total
+]0;vishwanath@TIGER02711: /mnt/d/Ubuntu/shell-lesson-data/exercise-data[01;32mvishwanath@TIGER02711[00m:[01;34m/mnt/d/Ubuntu/shell-lesson-data/exercise-data[00m$ exit
+exit
+
+Script done on 2022-05-31 18:01:07+05:30 [COMMAND_EXIT_CODE="0"]
